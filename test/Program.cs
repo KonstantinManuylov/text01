@@ -1,6 +1,7 @@
 ﻿string[] words = {  "hello", "2", "world", ":-)", "1234", "1567",
                     "-2", "computer science", "Russia", "Denmark", "Kazan"};
 string[] finishWords = NewWords(words);
+Console.WriteLine(TruePrint(finishWords));
 
 string[] NewWords(string[] array)
 {
